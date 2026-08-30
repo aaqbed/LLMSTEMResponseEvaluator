@@ -1,6 +1,6 @@
 # LLM Evaluation Rubric
 
-Each response is scored across 4 different criteria on a 0-4 scale (the total max score an LLM can achieve is 16 points).
+Each response is scored across 4 different criteria on a 0-4 scale (the total max score an LLM response can achieve is 16 points).
 
 ---
 
