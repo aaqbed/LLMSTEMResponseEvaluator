@@ -22,3 +22,9 @@ Each response is scored across 4 different criteria on a 0-4 scale (the total ma
 
 ---
 
+## 3. Methodological Soundness
+* **4 (Rigorous and Optimal):** The algorithmic approach is optimal. Mathematical proofs and physical derivations are logically valid from first principles.
+* **3 (Valid but Suboptimal):** The approach is correct and valid, but uses a brute-force/suboptimal algorithm or an extremely complicated derivation.
+* **2 (Flawed Reasoning):** The core method contains conceptual flaws, false statements of proof, or invalid physical assumptions, even if the final guess appears close to the right answer.
+* **1 (Invalid Methodology):** Random heuristics, circular logic, or invalid physical laws have been applied to obtain an answer.
+* **0 (No Coherent Method):** No valid step-by-step logic has been provided.
