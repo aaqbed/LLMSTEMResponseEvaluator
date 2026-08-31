@@ -28,3 +28,12 @@ Each response is scored across 4 different criteria on a 0-4 scale (the total ma
 * **2 (Flawed Reasoning):** The core method contains conceptual flaws, false statements of proof, or invalid physical assumptions, even if the final guess appears close to the right answer.
 * **1 (Invalid Methodology):** Random heuristics, circular logic, or invalid physical laws have been applied to obtain an answer.
 * **0 (No Coherent Method):** No valid step-by-step logic has been provided.
+
+---
+
+## 4. Completeness and Clarity
+* **4 (Clear & Thorough):** The response covers all sub-questions and edge cases. It also has a well-structured explanation with clear variable definitions.
+* **3 (Good):** The response addresses all parts, but the explanation is slightly verbose or could be better organized.
+* **2. (Incomplete)** The response addresses the main question but skips secondary sub-prompts or edge cases.
+* **1 (Vague / Disorganized):** The response is difficult to follow, poorly formatted, or missing important components.
+* **0 (Unintelligible):** The responses lacks a coherent explanation.
