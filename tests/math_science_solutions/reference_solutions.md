@@ -51,7 +51,7 @@ $$\frac{\sin(x)}{1 + \cos(x)} + \frac{1 + \cos(x)}{\sin(x)}$$
 Find the exact coordinates $(x, y)$ of all local extrema and inflection points for the function $f(x) = (x^2 - 4)e^{-x}$. Show your first and second derivatives and justify using the first or second derivative test.
 
 * **First Derivative $f'(x)$:**
-    * $f'(x) = \frac{d}{dx}[x^2 - 4]e^{-x} + (x^2 - 4)\frac{d}{dx}[e^{-x}] = 2xe^{-x} - (x^2 - 4)e^{-x} = (-x^2 + 2x + 4)e^{-x}$$
+    * $f'(x) = \frac{d}{dx}[x^2 - 4]e^{-x} + (x^2 - 4)\frac{d}{dx}[e^{-x}] = 2xe^{-x} - (x^2 - 4)e^{-x} = (-x^2 + 2x + 4)e^{-x}$
 * **Critical Points ($f'(x) = 0$):**
     $$-x^2 + 2x + 4 = 0 \implies x^2 - 2x - 4 = 0 \implies x = \frac{2 \pm \sqrt{4 - 4(1)(-4)}}{2} = 1 \pm \sqrt{5}$$
 * **Second Derivative $f''(x)$:**
@@ -73,6 +73,6 @@ Find the exact coordinates $(x, y)$ of all local extrema and inflection points f
 ### Final Answer
 * **First Derivative:** $f'(x) = (-x^2 + 2x ++ 4)e^{-x}$
 * **Second Derivative:** $f''(x) = (x^2 - 4x - 2)e^{-x}$
-* **Local Minimum:** $\left(1 - \sqrt{5}, \, (2 - 2\sqrt{5})e^{\sqrt{5}-1}\right)$
-* **Local Maximum:** $\left(1 + \sqrt{5}, \, (2 + 2\sqrt{5})e^{-(1+\sqrt{5})}\right)$
-* **Inflection Points:** $\left(2 - \sqrt{6}, \, (6 - 4\sqrt{6})e^{\sqrt{6}-2}\right)$ and $\left(2 + \sqrt{6}, \, (6 + 4\sqrt{6})e^{-(2+\sqrt{6})}\right)$
+* **Local Minimum:** $\left(1 - \sqrt{5}, (2 - 2\sqrt{5})e^{\sqrt{5}-1}\right)$
+* **Local Maximum:** $\left(1 + \sqrt{5}, (2 + 2\sqrt{5})e^{-(1+\sqrt{5})}\right)$
+* **Inflection Points:** $\left(2 - \sqrt{6}, (6 - 4\sqrt{6})e^{\sqrt{6}-2}\right)$ and $\left(2 + \sqrt{6}, (6 + 4\sqrt{6})e^{-(2+\sqrt{6})}\right)$
