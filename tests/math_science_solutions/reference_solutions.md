@@ -15,3 +15,18 @@
     * Substitute $x = 2$ into equation 2:
         $$5(2) + 2y = 4 \implies 10 + 2y = 4 \implies 2y = -6 \implies y = -3$$
 * **Final Answer:** $(x,y) = (2,-3)$
+
+---
+
+### P07 (Trigonometry - Identity Simplification)
+* **Expression:** $\frac{\sin(x)}{1 + \cos(x)} + \frac{1 + \cos(x)}{\sin(x)}$
+* **Step-by-Step Solution:**
+    * Combine over common denominator $\sin(x)(1 + \cos(x))$:
+        $$\frac{\sin^2(x) + (1 + \cos(x))^2}{\sin(x)(1 + \cos(x))}$$
+    * Expand numerator:
+        $$\sin^2(x) + 1 + 2\cos(x) + \cos^2(x)$$
+    * Apply Pythagorean identity $\sin^2(x) + \cos^2(x) = 1$:
+        $$1 + 1 + 2\cos(x) = 2 + 2\cos(x) = 2(1 + \cos(x))$$
+    * Simplify fraction:
+        $$\frac{2(1 + \cos(x))}{\sin(x)(1 + \cos(x))} = \frac{2}{\sin(x)} = 2\csc(x)$$
+* **Final Answer:** $2\csc(x)$
