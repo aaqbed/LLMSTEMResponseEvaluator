@@ -17,6 +17,11 @@ $$5x + 2y = 4 \quad (2)$$
         $$(3x - 4y) + (10x + 4y) = 18 + 8 \implies 13x = 26 \implies x = 2$$
     * Substitute $x = 2$ into equation 2:
         $$5(2) + 2y = 4 \implies 10 + 2y = 4 \implies 2y = -6 \implies y = -3$$
+
+### Verification
+* Equation $(1)$: $3(2) - 4(-3) = 6 + 12 = 18$ (True)
+* Equation $(2)$: $5(2) + 2(-3) = 10 - 6 = 4$ (True)
+
 * **Final Answer:** $(x,y) = (2,-3)$
 
 ---
