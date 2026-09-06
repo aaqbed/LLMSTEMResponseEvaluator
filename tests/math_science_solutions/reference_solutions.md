@@ -71,7 +71,7 @@ Find the exact coordinates $(x, y)$ of all local extrema and inflection points f
      $$y = ((2+\sqrt{6})^2 - 4)e^{-(2+\sqrt{6})} = (6 + 4\sqrt{6})e^{-(2+\sqrt{6})}$$
 
 ### Final Answer
-* **First Derivative:** $f'(x) = (-x^2 + 2x ++ 4)e^{-x}$
+* **First Derivative:** $f'(x) = (-x^2 + 2x + 4)e^{-x}$
 * **Second Derivative:** $f''(x) = (x^2 - 4x - 2)e^{-x}$
 * **Local Minimum:** $\left(1 - \sqrt{5}, (2 - 2\sqrt{5})e^{\sqrt{5}-1}\right)$
 * **Local Maximum:** $\left(1 + \sqrt{5}, (2 + 2\sqrt{5})e^{-(1+\sqrt{5})}\right)$
