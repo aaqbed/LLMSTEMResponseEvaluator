@@ -21,7 +21,7 @@ $$5x + 2y = 4 \quad (2)$$
 
 ---
 
-### P07 (Trigonometry - Identity Simplification)
+### P07 (Algebra II - Identity Simplification)
 
 ### Problem Statement
 Simplify the following trigonometric expression into a single trigonometric function or constant, showing each identity applied:
