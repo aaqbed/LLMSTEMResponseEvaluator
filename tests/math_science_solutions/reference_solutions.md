@@ -188,3 +188,34 @@ If $44.1\text{ g}$ of propane reacts with $128.0\text{ g}$ of oxygen gas at $1.0
 * **Limiting Reactant:** $\text{O}_2$ (Oxygen gas)
 * **Theoretical Yield of $\text{CO}_2$:** $105.6\text{ g}$
 * **Volume of $\text{CO}_2$:** $58.7\text{ L}$
+
+---
+
+### P13 (AP Chemistry - Chemical Equilibrium & ICE Table)
+
+### Problem Statement
+At $500\text{ K}$, the reaction $\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoons 2\text{NH}_3(g)$ has an equilibrium constant $K_c = 0.060$. If a $2.0\text{ L}$ rigid vessel initially contains $0.40\text{ mol}$ of $\text{N}_2$, $0.60\text{ mol}$ of $\text{H}_2$, and $0.00\text{ mol}$ of $\text{NH}_3$, set up the ICE table, write the equilibrium expression, and state the equation needed to solve for the equilibrium concentrations.
+* **Initial Concentrations ($C = \frac{n}{V}$, where $V = 2.0\text{ L}$):**
+   * $[\text{N}_2]_0 = \frac{0.40\text{ mol}}{2.0\text{ L}} = 0.20\text{ M}$
+   * $[\text{H}_2]_0 = \frac{0.60\text{ mol}}{2.0\text{ L}} = 0.30\text{ M}$
+   * $[\text{NH}_3]_0 = \frac{0.00\text{ mol}}{2.0\text{ L}} = 0.00\text{ M}$
+
+* **ICE Table Setup (Let $x$ be the extent of reaction in M):**
+
+| Species | Initial (M) | Change (M) | Equilibrium (M) |
+| :--- | :---: | :---: | :---: |
+| **$\text{N}_2$** | $0.20$ | $-x$ | $0.20 - x$ |
+| **$\text{H}_2$** | $0.30$ | $-3x$ | $0.30 - 3x$ |
+| **$\text{NH}_3$** | $0.00$ | $+2x$ | $2x$ |
+
+* **Equilibrium Constant Expression:**
+   $$K_c = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3}$$
+
+* **Substituted Equation to Solve:**
+   $$0.060 = \frac{(2x)^2}{(0.20 - x)(0.30 - 3x)^3}$$
+
+### Final Answer
+* **Initial Concentrations:** $[\text{N}_2]_0 = 0.20\text{ M}$, $[\text{H}_2]_0 = 0.30\text{ M}$, $[\text{NH}_3]_0 = 0.00\text{ M}$
+* **Equilibrium Concentrations:** $[\text{N}_2] = 0.20 - x$, $[\text{H}_2] = 0.30 - 3x$, $[\text{NH}_3] = 2x$
+* **Equilibrium Expression & Equation:**
+  $$K_c = \frac{[\text{NH}_3]^2}{[\text{N}_2][\text{H}_2]^3} \implies 0.060 = \frac{(2x)^2}{(0.20 - x)(0.30 - 3x)^3}$$
