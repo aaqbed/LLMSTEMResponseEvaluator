@@ -76,3 +76,24 @@ Find the exact coordinates $(x, y)$ of all local extrema and inflection points f
 * **Local Minimum:** $\left(1 - \sqrt{5}, (2 - 2\sqrt{5})e^{\sqrt{5}-1}\right)$
 * **Local Maximum:** $\left(1 + \sqrt{5}, (2 + 2\sqrt{5})e^{-(1+\sqrt{5})}\right)$
 * **Inflection Points:** $\left(2 - \sqrt{6}, (6 - 4\sqrt{6})e^{\sqrt{6}-2}\right)$ and $\left(2 + \sqrt{6}, (6 + 4\sqrt{6})e^{-(2+\sqrt{6})}\right)$
+
+---
+
+### P09 (Calculus II - Integration by Parts)
+
+### Problem Statement
+Evaluate the indefinite integral using integration by parts:
+$$\int x^2 \ln(x) \, dx$$
+Show the selection of $u$, $dv$, $du$, $v$, and all algebraic simplification steps.
+
+* **Choose $u$ and $dv$ :**
+    * $u = \ln(x) \implies du = \frac{1}{x} \, dx$
+    * $dv = x^2 \, dx \implies v = \int x^2 \, dx = \frac{x^3}{3}$
+* **Apply the Integration by Parts formula ($\int u \, dv = uv - \int v \, du$):**
+    $$\int x^2 \ln(x) \, dx = \ln(x) \cdot \frac{x^3}{3} - \int \frac{x^3}{3} \cdot \frac{1}{x} \, dx$$
+* **Simplify and evaluate the remaining integral:**
+    $$\int x^2 \ln(x) \, dx = \frac{x^3 \ln(x)}{3} - \frac{1}{3} \int x^2 \, dx = \frac{x^3 \ln(x)}{3} - \frac{1}{3} \left(\frac{x^3}{3}\right) + C$$
+    $$= \frac{x^3 \ln(x)}{3} - \frac{x^3}{9} + C$$
+
+    ### Final Answer
+    $$\frac{x^3 \ln(x)}{3} - \frac{x^3}{9} + C$$
