@@ -247,3 +247,31 @@ At $500\text{ K}$, the reaction $\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoo
 ### Final Answer
 * **Angular Velocity ($\omega$):** $\sqrt{\frac{3g}{L}} = \sqrt{14.7} \approx 3.83\text{ rad/s}$
 * **Linear Velocity of Tip ($v$):** $\sqrt{3gL} = \sqrt{58.8} \approx 7.67\text{ m/s}$
+
+---
+
+### P15 (AP Physics C Integration - Rotational Inertia via Non-Uniform Integration)
+
+### Problem Statement
+A non-uniform thin rod of length $L$ lies along the $x$-axis with one end at the origin ($x = 0$) and the other end at $x = L$. Its linear mass density is given by $\rho(x) = kx^2$, where $k$ is a positive constant.
+(a) Find the total mass $M$ of the rod in terms of $k$ and $L$.
+(b) Using definite integration ($I = \int x^2 dm$), derive the rotational inertia $I$ of the rod about an axis perpendicular to the rod passing through the origin ($x = 0$) in terms of $M$ and $L$.
+
+#### Part (a): Total Mass $M$
+* Express differential mass element: $dm = \rho(x) \, dx = kx^2 \, dx$.
+* Integrate across the length from $x = 0$ to $x = L$:
+   $$M = \int_0^L dm = \int_0^L kx^2 \, dx = k \left[ \frac{x^3}{3} \right]_0^L = \frac{kL^3}{3}$$
+* Express $k$ in terms of $M$ and $L$:
+   $$k = \frac{3M}{L^3}$$
+
+#### Part (b): Rotational Inertia $I$
+* Set up the integral for rotational inertia about $x = 0$:
+   $$I = \int x^2 dm = \int_0^L x^2 (\rho(x) \, dx) = \int_0^L x^2 (kx^2) \, dx = k \int_0^L x^4 \, dx$$
+* Evaluate the definite integral:
+   $$I = k \left[ \frac{x^5}{5} \right]_0^L = \frac{kL^5}{5}$$
+* Substitute $k = \frac{3M}{L^3}$ to express $I$ in terms of $M$ and $L$:
+   $$I = \left(\frac{3M}{L^3}\right) \frac{L^5}{5} = \frac{3}{5} M L^2$$
+
+### Final Answer
+* **(a) Total Mass:** $M = \frac{kL^3}{3}$
+* **(b) Rotational Inertia:** $I = \frac{3}{5}ML^2$
