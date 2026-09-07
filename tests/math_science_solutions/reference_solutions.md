@@ -149,9 +149,9 @@ In pea plants, round seeds ($R$) are dominant over wrinkled seeds ($r$), and yel
      * Wrinkled Green (rr yy): $\frac{1}{4} \times \frac{1}{4} = \frac{1}{16}$
    * Expected phenotypic ratio: **9:3:3:1**
 * **Probability of Round Green Offspring:**
-   $$P(\text{Round Green}) = P(\text{Round}) \times P(\text{Green}) = \frac{3}{4} \times \frac{1}{4} = \frac{3}{16} = 0.1875$$
+   $$P(\text{Round Green}) = P(\text{Round}) \times P(\text{Green}) = \frac{3}{4} \times \frac{1}{4} = \frac{3}{16} = 0.1875$$.
    This corresponds to **18.75%**.
 
 ### Final Answer
 * **Expected Phenotypic Ratio:** 9:3:3:1 (Round Yellow : Round Green : Wrinkled Yellow : Wrinkled Green)
-* **Exact Probability of Round Green:** $\frac{3}{16}$ (or 0.1875 / 18.75%)
+* **Exact Probability of Round Green:** $\frac{3}{16}$ (or 0.1875, 18.75%)
