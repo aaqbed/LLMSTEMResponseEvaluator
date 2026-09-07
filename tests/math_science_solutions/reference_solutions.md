@@ -110,8 +110,8 @@ Use the method of Lagrange multipliers to find the maximum and minimum values of
    * $\nabla f = \langle 2, 4, 1 \rangle$
    * $\nabla g = \langle 2x, 4y, 2z \rangle$
 * **System of Equations:**
-   $$2 = \lambda(2x) \implies x = \frac{1}{\lambda}$$
-   $$4 = \lambda(4y) \implies y = \frac{1}{\lambda}$$
+   $$2 = \lambda(2x) \implies x = \frac{1}{\lambda}$$,
+   $$4 = \lambda(4y) \implies y = \frac{1}{\lambda}$$,
    $$1 = \lambda(2z) \implies z = \frac{1}{2\lambda}$$
 * **Substitute into Constraint Equation:**
    $$\left(\frac{1}{\lambda}\right)^2 + 2\left(\frac{1}{\lambda}\right)^2 + \left(\frac{1}{2\lambda}\right)^2 = 28$$
