@@ -95,5 +95,35 @@ Show the selection of $u$, $dv$, $du$, $v$, and all algebraic simplification ste
     $$\int x^2 \ln(x) dx = \frac{x^3 \ln(x)}{3} - \frac{1}{3} \int x^2 dx = \frac{x^3 \ln(x)}{3} - \frac{1}{3} \left(\frac{x^3}{3}\right) + C$$
     $$= \frac{x^3 \ln(x)}{3} - \frac{x^3}{9} + C$$
 
-    ### Final Answer
-    $$\frac{x^3 \ln(x)}{3} - \frac{x^3}{9} + C$$
+### Final Answer
+$$\frac{x^3 \ln(x)}{3} - \frac{x^3}{9} + C$$
+
+---
+
+### P10 (Calculus III - Constrained Optimization via Lagrange Multipliers)
+
+### Problem Statement
+Use the method of Lagrange multipliers to find the maximum and minimum values of $f(x, y, z) = 2x + 4y + z$ subject to the constraint $g(x, y, z) = x^2 + 2y^2 + z^2 = 28$. Show the gradient setup, system of equations, and check all critical points.
+
+### Solution Derivation
+* **Gradient Setup ($\nabla f = \lambda \nabla g$):**
+   * $\nabla f = \langle 2, 4, 1 \rangle$
+   * $\nabla g = \langle 2x, 4y, 2z \rangle$
+* **System of Equations:**
+   $$2 = \lambda(2x) \implies x = \frac{1}{\lambda}$$
+   $$4 = \lambda(4y) \implies y = \frac{1}{\lambda}$$
+   $$1 = \lambda(2z) \implies z = \frac{1}{2\lambda}$$
+* **Substitute into Constraint Equation:**
+   $$\left(\frac{1}{\lambda}\right)^2 + 2\left(\frac{1}{\lambda}\right)^2 + \left(\frac{1}{2\lambda}\right)^2 = 28$$
+   $$\frac{1}{\lambda^2} + \frac{2}{\lambda^2} + \frac{1}{4\lambda^2} = 28 \implies \frac{13}{4\lambda^2} = 28 \implies \lambda^2 = \frac{13}{112} \implies \lambda = \pm \frac{\sqrt{91}}{28}$$
+* **Find Critical Points:**
+   * **For $\lambda = \frac{\sqrt{91}}{28}$:**
+     $$x = \frac{4\sqrt{91}}{13}, \quad y = \frac{4\sqrt{91}}{13}, \quad z = \frac{2\sqrt{91}}{13}$$
+     $$f_{\max} = 2\left(\frac{4\sqrt{91}}{13}\right) + 4\left(\frac{4\sqrt{91}}{13}\right) + 1\left(\frac{2\sqrt{91}}{13}\right) = 2\sqrt{91}$$
+   * **For $\lambda = -\frac{\sqrt{91}}{28}$:**
+     $$x = -\frac{4\sqrt{91}}{13}, \quad y = -\frac{4\sqrt{91}}{13}, \quad z = -\frac{2\sqrt{91}}{13}$$
+     $$f_{\min} = -2\sqrt{91}$$
+
+### Final Answer
+* **Maximum Value:** $2\sqrt{91} \approx 19.08$ at $\left(\frac{4\sqrt{91}}{13}, \, \frac{4\sqrt{91}}{13}, \, \frac{2\sqrt{91}}{13}\right)$
+* **Minimum Value:** $-2\sqrt{91} \approx -19.08$ at $\left(-\frac{4\sqrt{91}}{13}, \, -\frac{4\sqrt{91}}{13}, \, -\frac{2\sqrt{91}}{13}\right)$
