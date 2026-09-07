@@ -166,12 +166,12 @@ $$\text{C}_3\text{H}_8(g) + 5\text{O}_2(g) \rightarrow 3\text{CO}_2(g) + 4\text{
 If $44.1\text{ g}$ of propane reacts with $128.0\text{ g}$ of oxygen gas at $1.00\text{ atm}$ and $298\text{ K}$, identify the limiting reactant, calculate the theoretical yield of $\text{CO}_2$ in grams, and determine the volume of $\text{CO}_2$ produced in liters using $R = 0.08206\text{ L}\cdot\text{atm}/(\text{mol}\cdot\text{K})$.
 
 * **Molar Masses:**
-    * $M(\text{C}_3\text{H}_8) = 44.097\text{ g}{44.097\text{ g/mol}} = 1.000\text{ mol}$
-    * $M(\text{O}_2) = \frac{128.0\text{ g}}{32.00\text{ g/mol}} = 4.000\text{ mol}$
-        $M(\text{CO}_2) = 44.01\text{g/mol}$
+    * $M(\text{C}_3\text{H}_8) = 44.097\text{ g/mol} \approx 44.1\text{ g/mol}$
+   * $M(\text{O}_2) = 32.00\text{ g/mol}$
+   * $M(\text{CO}_2) = 44.01\text{ g/mol}$
 * **Initial Moles:**
     * $n(\text{C}_3\text{H}_8) = \frac{44.1\text\{ g}}{44.097\text{ g/mol}} = 1.000\text{ mol}$
-    * $n(\text{O}_2) = \frac{128.0\text{ g}}{32.00\text{ g\mol}} = 4.000\text{ mol}$
+    * $n(\text{O}_2) = \frac{128.0\text{ g}}{32.00\text{ g/mol}} = 4.000\text{ mol}$
 * **Limiting Reactant Identification:**
     * Stoichiometric ratio requires $5\text{ mol }\text{O}_2$ per $1\text{ mol }\text{C}_3\text{H}_8$.
     * For $1.000\text{ mol }\text{C}_3\text{H}_8$, $5.000\text{ mol }\text{O}_2$ is needed, but only $4.000\text{ mol }\text{O}_2$ is available.
