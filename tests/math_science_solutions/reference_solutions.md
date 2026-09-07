@@ -83,7 +83,7 @@ Find the exact coordinates $(x, y)$ of all local extrema and inflection points f
 
 ### Problem Statement
 Evaluate the indefinite integral using integration by parts:
-$$\int x^2 \ln(x) dx$$
+$$\int x^2 \ln(x) dx$$.
 Show the selection of $u$, $dv$, $du$, $v$, and all algebraic simplification steps.
 
 * **Choose $u$ and $dv$ :**
