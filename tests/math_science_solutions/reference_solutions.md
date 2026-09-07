@@ -83,16 +83,16 @@ Find the exact coordinates $(x, y)$ of all local extrema and inflection points f
 
 ### Problem Statement
 Evaluate the indefinite integral using integration by parts:
-$$\int x^2 \ln(x) \, dx$$
+$$\int x^2 \ln(x) dx$$
 Show the selection of $u$, $dv$, $du$, $v$, and all algebraic simplification steps.
 
 * **Choose $u$ and $dv$ :**
-    * $u = \ln(x) \implies du = \frac{1}{x} \, dx$
-    * $dv = x^2 \, dx \implies v = \int x^2 \, dx = \frac{x^3}{3}$
-* **Apply the Integration by Parts formula ($\int u \, dv = uv - \int v \, du$):**
-    $$\int x^2 \ln(x) \, dx = \ln(x) \cdot \frac{x^3}{3} - \int \frac{x^3}{3} \cdot \frac{1}{x} \, dx$$
+    * $u = \ln(x) \implies du = \frac{1}{x} dx$
+    * $dv = x^2 dx \implies v = \int x^2 dx = \frac{x^3}{3}$
+* **Apply the Integration by Parts formula ($\int u dv = uv - \int v du$):**
+    $$\int x^2 \ln(x) dx = \ln(x) \cdot \frac{x^3}{3} - \int \frac{x^3}{3} \cdot \frac{1}{x} dx$$
 * **Simplify and evaluate the remaining integral:**
-    $$\int x^2 \ln(x) \, dx = \frac{x^3 \ln(x)}{3} - \frac{1}{3} \int x^2 \, dx = \frac{x^3 \ln(x)}{3} - \frac{1}{3} \left(\frac{x^3}{3}\right) + C$$
+    $$\int x^2 \ln(x) dx = \frac{x^3 \ln(x)}{3} - \frac{1}{3} \int x^2 dx = \frac{x^3 \ln(x)}{3} - \frac{1}{3} \left(\frac{x^3}{3}\right) + C$$
     $$= \frac{x^3 \ln(x)}{3} - \frac{x^3}{9} + C$$
 
     ### Final Answer
