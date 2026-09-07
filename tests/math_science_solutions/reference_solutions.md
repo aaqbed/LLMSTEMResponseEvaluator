@@ -254,8 +254,8 @@ At $500\text{ K}$, the reaction $\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoo
 
 ### Problem Statement
 A non-uniform thin rod of length $L$ lies along the $x$-axis with one end at the origin ($x = 0$) and the other end at $x = L$. Its linear mass density is given by $\rho(x) = kx^2$, where $k$ is a positive constant.
-(a) Find the total mass $M$ of the rod in terms of $k$ and $L$.
-(b) Using definite integration ($I = \int x^2 dm$), derive the rotational inertia $I$ of the rod about an axis perpendicular to the rod passing through the origin ($x = 0$) in terms of $M$ and $L$.
+* (a) Find the total mass $M$ of the rod in terms of $k$ and $L$.
+* (b) Using definite integration ($I = \int x^2 dm$), derive the rotational inertia $I$ of the rod about an axis perpendicular to the rod passing through the origin ($x = 0$) in terms of $M$ and $L$.
 
 #### Part (a): Total Mass $M$
 * Express differential mass element: $dm = \rho(x) \, dx = kx^2 \, dx$.
