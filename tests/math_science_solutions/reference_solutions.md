@@ -258,15 +258,15 @@ A non-uniform thin rod of length $L$ lies along the $x$-axis with one end at the
 * (b) Using definite integration ($I = \int x^2 dm$), derive the rotational inertia $I$ of the rod about an axis perpendicular to the rod passing through the origin ($x = 0$) in terms of $M$ and $L$.
 
 #### Part (a): Total Mass $M$
-* Express differential mass element: $dm = \rho(x) \, dx = kx^2 \, dx$.
+* Express differential mass element: $dm = \rho(x) dx = kx^2 dx$.
 * Integrate across the length from $x = 0$ to $x = L$:
-   $$M = \int_0^L dm = \int_0^L kx^2 \, dx = k \left[ \frac{x^3}{3} \right]_0^L = \frac{kL^3}{3}$$
+   $$M = \int_0^L dm = \int_0^L kx^2 dx = k \left[ \frac{x^3}{3} \right]_0^L = \frac{kL^3}{3}$$
 * Express $k$ in terms of $M$ and $L$:
    $$k = \frac{3M}{L^3}$$
 
 #### Part (b): Rotational Inertia $I$
 * Set up the integral for rotational inertia about $x = 0$:
-   $$I = \int x^2 dm = \int_0^L x^2 (\rho(x) \, dx) = \int_0^L x^2 (kx^2) \, dx = k \int_0^L x^4 \, dx$$
+   $$I = \int x^2 dm = \int_0^L x^2 (\rho(x) dx) = \int_0^L x^2 (kx^2) dx = k \int_0^L x^4 dx$$
 * Evaluate the definite integral:
    $$I = k \left[ \frac{x^5}{5} \right]_0^L = \frac{kL^5}{5}$$
 * Substitute $k = \frac{3M}{L^3}$ to express $I$ in terms of $M$ and $L$:
