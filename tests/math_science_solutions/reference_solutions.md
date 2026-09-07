@@ -155,3 +155,36 @@ In pea plants, round seeds ($R$) are dominant over wrinkled seeds ($r$), and yel
 ### Final Answer
 * **Expected Phenotypic Ratio:** 9:3:3:1 (Round Yellow : Round Green : Wrinkled Yellow : Wrinkled Green)
 * **Exact Probability of Round Green:** $\frac{3}{16}$ (or 0.1875, 18.75%)
+
+---
+
+### P12 (High School Chemistry - Stoichiometry & Ideal Gas Law)
+
+### Problem Statement
+Consider the complete combustion of propane:
+$$\text{C}_3\text{H}_8(g) + 5\text{O}_2(g) \rightarrow 3\text{CO}_2(g) + 4\text{H}_2\text{O}(g)$$.
+If $44.1\text{ g}$ of propane reacts with $128.0\text{ g}$ of oxygen gas at $1.00\text{ atm}$ and $298\text{ K}$, identify the limiting reactant, calculate the theoretical yield of $\text{CO}_2$ in grams, and determine the volume of $\text{CO}_2$ produced in liters using $R = 0.08206\text{ L}\cdot\text{atm}/(\text{mol}\cdot\text{K})$.
+
+* **Molar Masses:**
+    * $M(\text{C}_3\text{H}_8) = 44.097\text{ g}{44.097\text{ g/mol}} = 1.000\text{ mol}$
+    * $M(\text{O}_2) = \frac{128.0\text{ g}}{32.00\text{ g/mol}} = 4.000\text{ mol}$
+        $M(\text{CO}_2) = 44.01\text{g/mol}$
+* **Initial Moles:**
+    * $n(\text{C}_3\text{H}_8) = \frac{44.1\text\{ g}}{44.097\text{ g/mol}} = 1.000\text{ mol}$
+    * $n(\text{O}_2) = \frac{128.0\text{ g}}{32.00\text{ g\mol}} = 4.000\text{ mol}$
+* **Limiting Reactant Identification:**
+    * Stoichiometric ratio requires $5\text{ mol }\text{O}_2$ per $1\text{ mol }\text{C}_3\text{H}_8$.
+    * For $1.000\text{ mol }\text{C}_3\text{H}_8$, $5.000\text{ mol }\text{O}_2$ is needed, but only $4.000\text{ mol }\text{O}_2$ is available.
+    * Therefore, **$\text{O}_2$ is the limiting reactant**.
+* **Theoretical Yield of $\text{CO}_2$:**
+    * Moles of $\text{CO}_2$ formed:
+        $$n(\text{CO}_2) = 4.000\text{ mol }\text{O}_2 \times \frac{3\text{ mol }\text{CO}_2}{5\text{ mol }\text{O}_2} = 2.400\text{ mol }\text{CO}_2$$
+   * Mass of $\text{CO}_2$:
+     $$\text{Mass} = 2.400\text{ mol} \times 44.01\text{ g/mol} = 105.624\text{ g} \approx 105.6\text{ g}$$
+* **Volume of $\text{CO}_2$ via Ideal Gas Law ($PV = nRT$):**
+    $$V = \frac{nRT}{P} = \frac{(2.400\text{ mol})(0.08206\text{ L}\cdot\text{atm}/(\text{mol}\cdot\text{K}))(298\text{ K})}{1.00\text{ atm}} = 58.69\text{ L} \approx 58.7\text{ L}$$
+
+### Final Answer
+* **Limiting Reactant:** $\text{O}_2$ (Oxygen gas)
+* **Theoretical Yield of $\text{CO}_2$:** $105.6\text{ g}$
+* **Volume of $\text{CO}_2$:** $58.7\text{ L}$
