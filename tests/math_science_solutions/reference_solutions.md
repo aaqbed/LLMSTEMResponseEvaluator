@@ -140,17 +140,17 @@ Use the method of Lagrange multipliers to find the maximum and minimum values of
 In pea plants, round seeds ($R$) are dominant over wrinkled seeds ($r$), and yellow seeds ($Y$) are dominant over green seeds ($y$). Two plants heterozygous for both traits ($RrYy$) are crossed. Assuming independent assortment, state the expected phenotypic ratio of the offspring and calculate the exact probability of obtaining an offspring that has round green seeds.
 
 * **Phenotypic Ratio (Dihybrid Cross $RrYy \times RrYy$):**
-    * Cross 1 ($Rr \times Rr$): $P(\text{Round } R_) = \frac{3}{4}$, $P(\text{Wrinkled } rr) = \frac{1}{4}$
-    * Cross 2 ($Yy \times Yy$): $P(\text{Yellow } Y_) = \frac{3}{4}$, $P(\text{Green } yy) = \frac{1}{4}$
-    * Combined phenotypic ratio:
-        * Round Yellow ($R_Y_$): $\frac{3}{4} \times \frac{3}{4} = \frac{9}{16}$
-        * Round Green ($R_yy$): $\frac{3}{4} \times \frac{1}{4} = \frac{3}{16}$
-        * Wrinkled Yellow ($rrY_$): $\frac{1}{4} \times \frac{3}{4} = \frac{3}{16}$
-        * Wrinkled Green ($rryy$): $\frac{1}{4} \times \frac{1}{4} = \frac{1}{16}$
-    * Expected phenotypic ratio: **$9:3:3:1$**
+   * Cross 1 ($Rr \times Rr$): $P(\text{Round } R\_) = \frac{3}{4}$, $P(\text{Wrinkled } rr) = \frac{1}{4}$
+   * Cross 2 ($Yy \times Yy$): $P(\text{Yellow } Y\_) = \frac{3}{4}$, $P(\text{Green } yy) = \frac{1}{4}$
+   * Combined phenotypic ratio:
+     * Round Yellow ($R\_Y\_$): $\frac{3}{4} \times \frac{3}{4} = \frac{9}{16}$
+     * Round Green ($R\_yy$): $\frac{3}{4} \times \frac{1}{4} = \frac{3}{16}$
+     * Wrinkled Yellow ($rrY\_$): $\frac{1}{4} \times \frac{3}{4} = \frac{3}{16}$
+     * Wrinkled Green ($rryy$): $\frac{1}{4} \times \frac{1}{4} = \frac{1}{16}$
+   * Expected phenotypic ratio: **$9:3:3:1$**
 * **Probability of Round Green Offspring:**
-    $$P(\text{Round Green}) = P(\text{Round}) \times P(\text{Green}) = \frac{3}{4} \times \frac{1}{4} = \frac{3}{16} = 0.1875 \text{(or 18.75\%)} $$
+   $$P(\text{Round Green}) = P(\text{Round}) \times P(\text{Green}) = \frac{3}{4} \times \frac{1}{4} = \frac{3}{16} = 0.1875 \text{ (or } 18.75\%)$$
 
 ### Final Answer
 * **Expected Phenotypic Ratio:** $9:3:3:1$ (Round Yellow : Round Green : Wrinkled Yellow : Wrinkled Green)
-* **Exact Probability of Round Green:** $\frac{3}{16}$ (or $0.1875$ / $18.75%$)
+* **Exact Probability of Round Green:** $\frac{3}{16}$ (or $0.1875$ / $18.75\%$)
