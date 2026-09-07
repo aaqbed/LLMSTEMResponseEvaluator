@@ -227,7 +227,7 @@ At $500\text{ K}$, the reaction $\text{N}_2(g) + 3\text{H}_2(g) \rightleftharpoo
   ### Problem Statement
   A uniform thin rod of mass $M = 3.0\text{ kg}$ and length $L = 2.0\text{ m}$ is free to pivot in a vertical plane about a frictionless hinge at one end ($I = \frac{1}{3}ML^2$). The rod is released from rest in a horizontal position. Using energy conservation, calculate the angular velocity $\omega$ of the rod when it reaches the vertical position, and calculate the linear velocity of the rod's lowest tip at that instant (use $g = 9.8\text{ m/s}^2$).
 
-  * **Center of Mass (CM) Height Drop:**
+* **Center of Mass (CM) Height Drop:**
    * Center of mass of a uniform rod is at its midpoint: $h_{\text{cm}} = \frac{L}{2}$.
    * When released horizontally and rotating to vertical, the CM falls by $\Delta h = \frac{L}{2} = \frac{2.0}{2} = 1.0\text{ m}$.
 * **Conservation of Energy ($E_{\text{initial}} = E_{\text{final}}$):**
